@@ -1,0 +1,19 @@
+
+When user arrives at home page:
+
+- Welcome message, w/ button to start the quiz
+
+  - When button is clicked:
+
+    -- LOOP --
+    - Show next question in the queue
+    - Show answers for that question
+    - Start timer
+
+    - User chooses an answer:
+      - We determine whether it's the correct answer 
+      - We also adjust the score if correct 
+      - Go to the next question (if there is one)
+      - If here is no next question, end game
+
+    -- END LOOP

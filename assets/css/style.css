@@ -1,0 +1,24 @@
+h1#question-here {
+    color: red;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+ul li button {
+    border: 1px solid #282828;
+    padding: 4px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #e2e2e2;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
